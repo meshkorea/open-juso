@@ -1,0 +1,18 @@
+{
+    "name": "meshkorea/open-juso",
+    "description": "PHP wrapper for Korean Road Address Open API provided by www.juso.go.kr",
+    "authors": [
+        {
+            "name": "Jong-Sun Yi",
+            "email": "jongsun.yi@meshkorea.net"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mesh\\OpenJuso\\": "src/Mesh/OpenJuso/"
+        }
+    }
+}
